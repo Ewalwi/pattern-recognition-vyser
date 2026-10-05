@@ -1,0 +1,28 @@
+{
+  "version": "2026.10.05-context-calibrated",
+  "generatedAt": "2026-10-05T00:00:00.000Z",
+  "count": 3,
+  "rules": [
+    {
+      "id": "crit-mp-add-000001",
+      "level": "critique",
+      "category": "menace_physique",
+      "pattern": "\\bje\\s+vais\\s+t(?:e|['’])?\\s*(?:exploser|fracasser|defoncer|demonter|planter)\\b",
+      "note": "Menace physique directe formulée avec des variantes courantes."
+    },
+    {
+      "id": "crit-ce-add-000001",
+      "level": "critique",
+      "category": "chantage_extorsion",
+      "pattern": "\\bsi tu (?:ne )?(?:me )?pa(?:i|y)es? pas\\b.{0,60}\\bje (?:publie|diffuse|balance|partage)\\b.{0,30}\\b(?:tes|ta) (?:photos?|videos?|nudes?)\\b",
+      "note": "Chantage conditionnel visant à publier ou diffuser des contenus privés."
+    },
+    {
+      "id": "crit-sx-add-000001",
+      "level": "critique",
+      "category": "sextorsion",
+      "pattern": "\\bsi tu (?:ne )?(?:m['’]?)?envoi(?:e|es)? pas\\b.{0,45}\\b(?:photo|video) (?:nue|nude|intime)\\b.{0,60}\\bje (?:la |les |le )?(?:diffuse|publie|partage|balance)\\b",
+      "note": "Menace conditionnelle de diffusion d'une image intime."
+    }
+  ]
+}
